@@ -1,0 +1,25 @@
+{
+  "name": "stickly-nextjs-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Next.js App Router + Auth.js example: Stickly rewards widget, server-signed user token, and a webhook route that grants credits idempotently.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "probe": "node scripts/probe-webhook.mjs"
+  },
+  "dependencies": {
+    "@stickly-live/node": "^0.1.1",
+    "next": "16.3.8",
+    "next-auth": "5.0.0-beta.32",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
